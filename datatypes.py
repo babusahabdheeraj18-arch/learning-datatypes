@@ -1,2 +1,10 @@
 a=10
 print(type(a))
+a=11234647833
+print(a)
+b=132.56
+print(type(b))
+print(b)
+c=1245E-2
+print(type(c))
+print(c)
