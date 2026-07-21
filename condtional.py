@@ -50,4 +50,34 @@ else:
 # else:
 #     print(f"{c} is the greatest number")
 
+#addibng grades to students based on marks
+# marks=int(input("enter the marks:"))
+# if 90<marks<=100:
+#     print("A+")
+# elif 80<marks<=90:
+#     print("B")
+# elif 70<marks<=80:
+#     print("C")
+# elif 60<marks<=70:
+#     print("D")
+# elif 50<marks<=60:
+#     print("E")
+# elif 33<=marks<=50:
+#     print("F")    
+# else:
+#     print("student is fail")
 
+#calculate a simple calculator using if else statement
+num1=int(input("enter the first number:"))
+num2=int(input("enter the second number:"))
+operation=input("enter the operation (+, -, *, /):")
+if operation=="+":
+    print(f"{num1} + {num2} = {num1+num2}")
+elif operation=="-":
+    print(f"{num1} - {num2} = {num1-num2}")
+elif operation=="*":
+    print(f"{num1} * {num2} = {num1*num2}")
+elif operation=="/":
+    print(f"{num1} / {num2} = {num1/num2}")
+else:
+    print("Invalid operation")
