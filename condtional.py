@@ -83,7 +83,7 @@ else:
 #     print("Invalid operation")
 
 #check whether charatcer is uppercase or lowercase,digit or special character
-# char=input("enter the character:")
+# char=input("enter the character:") 
 # if char.isupper():
 #     print(f"{char} is an uppercase letter")
 # elif char.islower():
