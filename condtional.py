@@ -97,13 +97,46 @@ else:
 # else:
 #     print(f"{char} is a special character")
 
-number1=int(input("enter the number:"))
-number = 2
+# number1=int(input("enter the number:"))
+# number = 2
 
-match number:
-    case 1:
-        print("One")
-    case 2 | 3:
-        print("Two or Three")
-    case _:
-        print("Other number")
+# match number:
+#     case 1:
+#         print("One")
+#     case 2 | 3:
+#         print("Two or Three")
+#     case _:
+#         print("Other number")
+
+#check the driving license test 
+
+# age=int(input("enter the age:"))
+# if age>=18:
+#     test=input("Did you pass the test:")
+#     if test=="yes":
+#         print("license approved")
+#     else:
+#         print("license denied")
+# else:
+#     print("not eligble")       
+
+# cricket team selection
+age=int(input("enter the age of player:")  )
+if 16 <= age <= 25 :
+    bowling_speed=int(input("enter your speed:"))
+    if bowling_speed>=120:
+        fitness_level=input("enter the fitness result:") 
+        if fitness_level =="passed" :
+            print("player is selected")
+        elif fitness_level=="failed":
+            print("player is reserved")
+        else:
+            print("player is not selected")  
+    else:
+         print("player is not selected") 
+else:
+    print("player is underage")
+             
+
+
+
