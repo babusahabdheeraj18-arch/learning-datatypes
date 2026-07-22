@@ -68,16 +68,33 @@ else:
 #     print("student is fail")
 
 #calculate a simple calculator using if else statement
-num1=int(input("enter the first number:"))
-num2=int(input("enter the second number:"))
-operation=input("enter the operation (+, -, *, /):")
-if operation=="+":
-    print(f"{num1} + {num2} = {num1+num2}")
-elif operation=="-":
-    print(f"{num1} - {num2} = {num1-num2}")
-elif operation=="*":
-    print(f"{num1} * {num2} = {num1*num2}")
-elif operation=="/":
-    print(f"{num1} / {num2} = {num1/num2}")
-else:
-    print("Invalid operation")
+# num1=int(input("enter the first number:"))
+# num2=int(input("enter the second number:"))
+# operation=input("enter the operation (+, -, *, /):")
+# if operation=="+":
+#     print(f"{num1} + {num2} = {num1+num2}")
+# elif operation=="-":
+#     print(f"{num1} - {num2} = {num1-num2}")
+# elif operation=="*":
+#     print(f"{num1} * {num2} = {num1*num2}")
+# elif operation=="/":
+#     print(f"{num1} / {num2} = {num1/num2}")
+# else:
+#     print("Invalid operation")
+
+#check whether charatcer is uppercase or lowercase,digit or special character
+# char=input("enter the character:")
+# if char.isupper():
+#     print(f"{char} is an uppercase letter")
+# elif char.islower():
+#     print(f"{char} is a lowercase letter")
+# elif char.isdigit():
+#     print(f"{char} is a digit")
+# elif char.isalpha():
+#     print(f"{char} is an alphabet")
+# elif char.isstring():
+#     print(f"{char} is a string")
+# else:
+#     print(f"{char} is a special character")
+
+#
