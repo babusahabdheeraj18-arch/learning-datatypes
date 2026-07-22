@@ -97,4 +97,13 @@ else:
 # else:
 #     print(f"{char} is a special character")
 
-#
+number1=int(input("enter the number:"))
+number = 2
+
+match number:
+    case 1:
+        print("One")
+    case 2 | 3:
+        print("Two or Three")
+    case _:
+        print("Other number")
