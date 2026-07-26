@@ -91,10 +91,13 @@
 
 #find the max pair sum in the list between any two distinct object 
 arr=[1,2,3,10,9,5]
-max_sum = 19
-for i in range(len(arr)):
-    for j in range(i+1,len(arr)):
-        current_sum= arr[i] + arr[j]
-        if current_sum >= max_sum:
-            print("maxpair_sum:", arr[i] , arr[j])
+max1=0
+max2=0
+for num in arr:
+    if num>=max1:
+        max2=max1
+        max1=num
+    elif num>max2:
+        max2=num
         
+print(max1+max2)
