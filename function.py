@@ -44,10 +44,29 @@
 # res = lambda x: x * x
 # print(res(4))
 
-def function(n):
-    if n==4:
-        return n
-    else:
-        return 2*function(n+1)
+# def function(n):
+#     if n==4:
+#         return n
+#     else:
+#         return 2*function(n+1)
         
-print(function(2))
+# print(function(2))
+
+#pratice problem 
+# def sum(a,b):
+#     print(a+b)
+# sum(10,20)
+
+# def square(x):
+#     print(x*-x)
+# square(5)
+
+def max(a, b, c):
+    if a>b & a>c:
+        print("a is greater ")
+    elif b>a & b>c:
+        print("b is greater")
+    else:
+        print("c is greater")
+
+max(10, 40, 30)

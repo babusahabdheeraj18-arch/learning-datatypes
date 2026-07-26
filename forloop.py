@@ -79,12 +79,22 @@
 #     print('All elements are unique')
 
 #exponential backoff algorithm
-import time
-wait_time = 1
+# import time
+# wait_time = 1
 
-for i in range(6):
-    print(f"Retry {i}: {wait_time} seconds")
-    time.sleep(wait_time)
-    wait_time = wait_time * 2
-    if wait_time > 32:
-        break
+# for i in range(6):
+#     print(f"Retry {i}: {wait_time} seconds")
+#     time.sleep(wait_time)
+#     wait_time = wait_time * 2
+#     if wait_time > 32:
+#         break
+
+#find the max pair sum in the list between any two distinct object 
+arr=[1,2,3,10,9,5]
+max_sum = 19
+for i in range(len(arr)):
+    for j in range(i+1,len(arr)):
+        current_sum= arr[i] + arr[j]
+        if current_sum >= max_sum:
+            print("maxpair_sum:", arr[i] , arr[j])
+        
